@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-
-<link rel="next" href="general-attitudes-toward-ai.html">
+<link rel="prev" href="trend-across-time-attitudes-toward-workplace-automation.html">
+<link rel="next" href="appmethod.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -170,137 +170,199 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Artificial Intelligence: American Attitudes and Trends</h1>
-<p class="author"><em>Baobao Zhang and Allan Dafoe</em></p>
-<p class="date"><em>November 2018</em></p>
+<div id="high-level-machine-intelligence" class="section level1">
+<h1>6 High-level machine intelligence</h1>
+<!--
+BZ: Do you think we should write a brief paragraph here about high-level machine intelligence so the average reader can understand what we are talking about? 
+-->
+<div id="arrivesooner" class="section level2">
+<h2>6.1 The public think high-level machine intelligence will arrive sooner than AI experts predict</h2>
+<!--
+BZ: This subsection is pretty solid -- about 95% there. Could you check to make sure that the language in the main text is not too technical for the average reader to understand? 
+MA: to BZ to AD Most important substantive thing I think should change is how we deal with the HMLI timelines. My view is that we should not be making the comparison at all. 
+
+Currently, we've removed the direct comparison from the Key Findings, but we still make the comparison in the heading above as well as by including the two expert predictions and the predictions from our survey in the same graph. However, this is very likely to be taken out of context, e.g. by someone just clipping out the graph. Because of this, I don't think it's enough to simply write in the text or a footnote that the questions were very different. If the comparison isn't solid enough to include in the key findings, it's not solid enough to include in this heading or the graph. 
+
+The comparison is not solid enough, according to me. The questions are very different. It may well be the case that people aren't able to differentiate the questions and we'd get the same timeline from the public if we'd asked them the expert survey question. But I only think we should claim that if we can back it up with data, rather than just intuition. 
+
+Concretely, I'd suggest:
+* Not having the expert prediction and the public prediction in the same graph.
+* Not making the comparison in the heading above.
+* Mention the difference in predictions in the text below, with strong caveats that the two predictions may not be comparable. 
+-->
+<p>Respondents were asked to <a href="apptopline.html#forecasthlmi">forecast when high-level machine intelligence will be developed</a>. High-level machine intelligence was defined as the following:</p>
+<blockquote>
+<p>Say we have high-level machine intelligence when machines are able to perform almost all tasks that are economically relevant today better than the median human (today) at each task. Note that this would include subtle common sense queries such as a travel agent would provide. Ignore tasks which are legally or culturally restricted to humans, such as being a jury member.<a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a></p>
+</blockquote>
+<p>Respondents were asked to predict the probability that high-level machine intelligence will be built in 10, 20, and 50 years.</p>
+<p>We present our survey results in two ways. First, we show the summary statistics in a simple table. Next, to compare the public’s forecasts with forecasts made by AI researchers in 2016 <span class="citation">(Grace et al. <a href="#ref-grace2018will">2018</a>)</span>, we aggregated the respondents’ forecasts using the same method. Note that <span class="citation">Grace et al. (<a href="#ref-grace2018will">2018</a>)</span> asked about a much higher definition of high-level machine intelligence involving machines being better than all humans at all tasks.<a href="#fn12" class="footnoteRef" id="fnref12"><sup>12</sup></a></p>
+<p>Respondents predict that high-level machine intelligence will arrive fairly quickly. Respondents predict a median probability of 54% by 2028, a median probability of 70% by 2038, and a median probability of 88% by 2068.</p>
+<p>These predictions are considerably higher than predictions by experts in two previous surveys. In <span class="citation">Müller and Bostrom (<a href="#ref-muller2014future">2014</a>)</span>, expert respondents predict a 50% probability of high-level human intelligence being developed by 2040 and 90% by 2075. In <span class="citation">Grace et al. (<a href="#ref-grace2018will">2018</a>)</span>, experts predict that there is a 50% chance that high-level machine intelligence will be built by 2061. Plotting the public’s forecast with the expert forecast from <span class="citation">Grace et al. (<a href="#ref-grace2018will">2018</a>)</span>, we see that the public predicts high-level machine intelligence arriving much sooner than experts forecast. Employing the same aggregation method used in <span class="citation">Grace et al. (<a href="#ref-grace2018will">2018</a>)</span>, Americans predict that there is a 50% chance that high-level machine intelligence will be developed by 2026.</p>
+<p>Results in <span class="citation">Walsh (<a href="#ref-walsh2018expert">2018</a>)</span> also show that the non-experts (i.e., readers of a news article about AI) are more optimistic in their predictions of high-level machine intelligence compared with experts. While nearly 80% of non-experts think that high-level machine intelligence will be built by 2050, only 40% of experts predict that. In our survey, respondents with CS or engineering degrees give a somewhat longer timeline for the arrival of high-level machine intelligence. Nevertheless, these respondents’ forecasts are more optimistic than those made by experts from <span class="citation">Grace et al. (<a href="#ref-grace2018will">2018</a>)</span> and show considerable overlap with the overall public forecast. In fact, this subgroup predicts that there is a 50% chance that human-level-machine intelligence will be developed by 2029.</p>
+<p>Our results are robust to a different definition of advanced AI. In a pilot survey conducted on Mechanical Turk during July 13-14, 2017, we asked American respondents about human-level AI, defined as the following:</p>
+<blockquote>
+<p>Human-level artificial intelligence (human-level AI) refers to computer systems that can operate with the intelligence of an average human being. These programs can complete tasks or make decisions as successfully as the average human can.</p>
+</blockquote>
+<p>In this pilot study, respondents also provided forecasts that are more optimistic than the projections by AI experts. The respondents predict a median probability of 44% by 2027, a median probability of 62% by 2037, and a median probability of 83% by 2067.</p>
+<table>
+<caption><span id="tab:hlmitimeline">Table 1: </span>Summary statistics of high-level machine intelligence forecast</caption>
+<thead>
+<tr class="header">
+<th align="right">Year</th>
+<th align="left">Respondent type</th>
+<th align="right">Q1</th>
+<th align="right">Median</th>
+<th align="right">Mean</th>
+<th align="right">Q3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">2028</td>
+<td align="left">Public: all</td>
+<td align="right">0.3</td>
+<td align="right">0.54</td>
+<td align="right">0.54</td>
+<td align="right">0.70</td>
+</tr>
+<tr class="even">
+<td align="right">2038</td>
+<td align="left">Public: all</td>
+<td align="right">0.5</td>
+<td align="right">0.70</td>
+<td align="right">0.71</td>
+<td align="right">0.88</td>
+</tr>
+<tr class="odd">
+<td align="right">2068</td>
+<td align="left">Public: all</td>
+<td align="right">0.7</td>
+<td align="right">0.88</td>
+<td align="right">0.80</td>
+<td align="right">0.98</td>
+</tr>
+<tr class="even">
+<td align="right">2028</td>
+<td align="left">Public: respondents with CS or engineering degree</td>
+<td align="right">0.3</td>
+<td align="right">0.50</td>
+<td align="right">0.48</td>
+<td align="right">0.70</td>
+</tr>
+<tr class="odd">
+<td align="right">2038</td>
+<td align="left">Public: respondents with CS or engineering degree</td>
+<td align="right">0.5</td>
+<td align="right">0.70</td>
+<td align="right">0.69</td>
+<td align="right">0.88</td>
+</tr>
+<tr class="even">
+<td align="right">2068</td>
+<td align="left">Public: respondents with CS or engineering degree</td>
+<td align="right">0.5</td>
+<td align="right">0.80</td>
+<td align="right">0.71</td>
+<td align="right">0.98</td>
+</tr>
+</tbody>
+</table>
+<div class="figure"><span id="fig:hlmitimeline"></span>
+<img src="ai_public_opinion_us_2018_report-181121-BZ_web_files/figure-html/hlmitimeline-1.png" alt="The American public's forecasts of high-level machine intelligence timelines" width="2100" />
+<p class="caption">
+Figure 23: The American public’s forecasts of high-level machine intelligence timelines
+</p>
 </div>
-<div id="overview-ai-and-american-public-opinion" class="section level1">
-<h1>1 Overview: AI and American public opinion</h1>
+</div>
+<div id="americans-express-mixed-support-for-developing-high-level-machine-intelligence" class="section level2">
+<h2>6.2 Americans express mixed support for developing high-level machine intelligence</h2>
 <!--
-BZ: This section is probably the most important. I recommend that you spend a lot of time to make sure it sounds right to you.
-My assessment: It's about 90% there.
-
-AD: Exec summary:
--I have a few small edits will add Tuesday night (on my other laptop, which I left at airport!)
--AD todo: add exec summary portion saying how AI is awesome, important to understand these perceptions and fears to prevent overreaction. 
--AD to add: note that in our view this raises more questions than it answers. It is clear that much more work needs to be done to understand… This is not perfect, doing subsequent waves will improve. 
-
--Baobao: explain somewhere at the top that results presented roughly in chronological order as presented to subjects. 
-
--Additional analyses, e.g. demographic predictors of timelines, or outcomes from HLMI (and comparison to earlier demographic analyses). 
-
+BZ: I think this subsection is pretty solider -- about 95% there.
 -->
-<!-- #is the public "one" voice? also, the public isn't a voice, it's the "public's"" voice. 
-[BZ: I removed the old sentence and added a new sentence.]
--->
-<p>Advances in artificial intelligence (AI)<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> could impact nearly all aspects of society: the labor market, transportation, healthcare, education, and national security. While discussions about AI and applications of machine learning among technologists and policymakers have expanded, the voices of the public have yet to enter these conversations. In this report, we seek to understand the American public’s attitudes toward AI and what they consider to be the most important policy challenges related to the technology. In the U.S., public opinion has shaped many policy conversations, including immigration, free trade, international conflicts, and climate change mitigation. While the technology industry and governments currently predominate policy conversations on AI, the authors expect the public to become more influential over time, as witnessed in other emerging policy domains. It is thus vital to have a better understanding of how the public thinks about the governance of AI. Such understanding is crucial for informed policy-making efforts, as well as in identifying opportunities for educating the public about AI’s character, benefits, and risks.</p>
-<p>The survey covers a wide range of topics in AI governance, including workplace automation; attitudes regarding international cooperation; the public’s trust of various actors to develop and regulate AI; and historical and cross-national trends in public opinion regarding AI.</p>
-<p>This report is based on findings from a nationally representative survey conducted by the Governance of AI Program at the University of Oxford using the survey firm YouGov. The survey was conducted between June 6 and June 14, 2018, with a total of 2,000 American adults (18+) completing the survey. The analysis of this survey was <a href="https://osf.io/7gqvm/">pre-registered on the Open Science Framework</a>. <a href="appmethod.html#appmethod">Appendix A</a> provides further details regarding the data collection and analysis process.</p>
-<p>We plan to regularly release similar reports based on our survey research in the U.S., China, and the European Union (EU). We welcome collaborators on future surveys.</p>
-<!-- AD assessment: the above looks pretty good! Let's have Markus try his hand at tightening it. -->
-<div id="key-findings" class="section level2">
-<h2>1.1 Key findings</h2>
-<!-- MA: Changed things around a bit above. Biggest changes:
-- Changing the last bit of the first paragraph. I made the previous two points into one.
-- I moved up the description of what the report includes
-- I added a sentence on our pre-registration. That's pretty awesome 
-- To BZ: Is it true that we're looking at "cross-national trands in public opinion regarding AI"? To me that sounds like us comparing either between or within countries, something I'm not seeing us do. 
-- BZ to MA: We compared the US results to the EU results. 
--->
+<p>Respondents were asked how much they <a href="apptopline.html#supporthlmi">support or oppose the development of high-level machine intelligence</a>. Similar to the results about support for developing AI, Americans express mixed support for the development of high-level machine intelligence. About one-third of Americans (32%) somewhat or strongly support the development of AI while 27% somewhat or strongly oppose the development of AI. Many express a neutral attitude: 29% state that they neither support nor oppose while 12% indicate they don’t know.</p>
+<p>The correlation between support for developing AI and support for developing high-level machine intelligence is 0.62. The mean level of support for developing AI, compared with the mean level of support for developing high-level machine intelligence, is 0.24 points (MOE = +/- 0.06) higher on a five-point scale (two-sided <span class="math inline">\(p\)</span>-value <span class="math inline">\(&lt;0.001\)</span>).</p>
+<div class="figure"><span id="fig:supporthlmi"></span>
+<img src="ai_public_opinion_us_2018_report-181121-BZ_web_files/figure-html/supporthlmi-1.png" alt="Support for developing high-level machine intelligence" width="2100" />
+<p class="caption">
+Figure 24: Support for developing high-level machine intelligence
+</p>
+</div>
+</div>
+<div id="men-partisans-high-income-americans-and-those-with-tech-experience-express-greater-support-for-high-level-machine-intelligence" class="section level2">
+<h2>6.3 Men, partisans, high-income Americans, and those with tech experience express greater support for high-level machine intelligence</h2>
 <!--
-BZ: I re-wrote the key findings to include concrete numbers that people could cite. A few things that I have not include/reasons why I did not include them. 
-- Americans do not consider a lot of applications that use ML or AI to be applications of AI. (Hard to summarize the results in one sentence; also the results are driven by inattention.)
-- Americans think China is slightly ahead on AI R&D. (Might cause the wrong headlines.)
-- Demographic predictors of support for high-level machine intelligence. (Similar to the demographics breakdown of support for developing AI.)
-     -AD: This seems worth noting to me. 
-    -AD: Also, what about gender? To me the gender result is an important one, re HLMI, to argue contra pinker and others.
-    [BZ: I added that bit.]
-    [MA: I don't see gender added]
+BZ: I think this section is 90% there. One thing that I cannot explain is why partisans express higher support for HLMI. 
 
-My assesment: It's about 90% there. I want to make sure that we have highlighted all the interesting and important results. 
+I also ran another regression where I included support for AI as a predictor variable and reported the interesting results. 
 -->
-<p>Below we highlight key findings from our survey<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>:</p>
+<p>Support for developing high-level machine intelligence varies greatly between demographic subgroups, although only a minority in each subgroup support developing the technology. Some of the demographic trends we observe regarding support for developing AI also holds here: men, high-income Americans, and those with tech experience express greater support for high-level machine intelligence.</p>
+<p>We used a multiple regression that includes all of the demographic variables to predict support for developing high-level machine intelligence. The support for developing AI outcome variable had been standardized, so it has mean 0 and unit variance.</p>
+<p>Significant predictors correlated with support for developing high-level machine intelligence include:</p>
 <ul>
-<li><p>More Americans support than oppose developing AI. After reading a short explanation, a substantial minority of Americans (41%) support developing AI while a smaller minority (22%) oppose developing AI.</p></li>
-<li><p>Demographic subgroups that indicate the greatest support for developing AI include college graduates, those with high income, or those with a tech background.</p></li>
-<li><p>The overwhelming majority of Americans (82%) agree that robots and/or AI should be carefully managed. This figure is comparable with survey results from EU respondents.</p></li>
-<li><p>Americans consider all the AI governance challenges presented in the survey to be important for governments and tech companies to manage carefully. Governance challenges perceived to be the most likely to impact Americans within the next decade <em>and</em> rated the highest in issue importance were<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>:</p>
-<ol style="list-style-type: decimal">
-<li>Protecting data privacy</li>
-<li>Preventing AI cyber attacks against governments, companies, organizations, and individuals</li>
-<li>Preventing AI-assisted surveillance from violating privacy and civil liberties</li>
-<li>Preventing AI from being used to spread fake and harmful content online</li>
-</ol></li>
+<li>Identifying as a Democrat or a Republican (versus identifying as an Independent)</li>
+<li>Having a family income of more than $100,000 annually (versus having a family income of less than $30,000 annually)</li>
+<li>Having CS or programming experience (versus not having such experience)</li>
 </ul>
-<ul>
-<li>University researchers and the U.S. military are the groups most trusted to develop AI: about half of Americans express a “great deal” or a “fair amount” of confidence in these actors to develop AI. In regard to <em>managing</em> the development and use of AI, Americans place greater trust in tech companies and non-governmental organizations (e.g., OpenAI), compared with federal or state governments.</li>
-</ul>
+<p>Being a female (versus being a male) is the only significant predictor of opposition to developing high-level machine intelligence.</p>
+<p>We also performed the analysis above but <a href="addresults.html#appsupporthlmi">controlling for respondents’ support for developing AI</a>. Doing so allows us to identify subgroups those attitudes toward AI diverges from their attitudes toward high-level machine intelligence. In this secondary analysis, we find that being 69 or older is a significant predictor of <em>support</em> for developing high-level machine intelligence. In contrast, having a four-year college degree is a significant predictor of <em>opposition</em> to developing high-level machine intelligence. We hypothesize that senior citizens are unconcerned about advanced workplace automation because they have retired; furthermore, seniors may welcome highly-capable robotic caretakers. On the other hand, college graduates could feel threatened by AI systems so advanced that the latter could perform the tasks typically done by high-skilled humans.</p>
+<div class="figure"><span id="fig:demosupporthlmi1"></span>
+<img src="ai_public_opinion_us_2018_report-181121-BZ_web_files/figure-html/demosupporthlmi1-1.png" alt="Predicting support for developing high-level machine intelligence using demographic characteristics: distribution of responses" width="2400" />
+<p class="caption">
+Figure 25: Predicting support for developing high-level machine intelligence using demographic characteristics: distribution of responses
+</p>
+</div>
+<div class="figure"><span id="fig:demosupporthlmi1b"></span>
+<img src="ai_public_opinion_us_2018_report-181121-BZ_web_files/figure-html/demosupporthlmi1b-1.png" alt="Predicting support for developing high-level machine intelligence using demographic characteristics: average support across groups" width="2100" />
+<p class="caption">
+Figure 26: Predicting support for developing high-level machine intelligence using demographic characteristics: average support across groups
+</p>
+</div>
+<div class="figure"><span id="fig:demosupporthlmi2"></span>
+<img src="ai_public_opinion_us_2018_report-181121-BZ_web_files/figure-html/demosupporthlmi2-1.png" alt="Predicting support for developing high-level machine intelligence using demographic characteristics: results from a multiple regression model that includes all demographic variables" width="2100" />
+<p class="caption">
+Figure 27: Predicting support for developing high-level machine intelligence using demographic characteristics: results from a multiple regression model that includes all demographic variables
+</p>
+</div>
+</div>
+<div id="the-public-expects-high-level-machine-intelligence-to-be-more-harmful-than-good" class="section level2">
+<h2>6.4 The public expects high-level machine intelligence to be more harmful than good</h2>
 <!-- 
-OLD: Americans do not have a great deal of confidence in the U.S. government, international organizations, corporations or other actors to develop or manage AI in the best interest of the public. The U.S. military and university researchers are perceived to be the most trusted groups to build AI. In contrast, the public places the most trust in the Partnership on AI and non-governmental scientific organizations to _manage_ the development and use of AI.
-
-Can we summarize this in a different way? "do not have a great deal" sounds like not have much. To be more precise, would way say something like only X% have "a fair amount" of confidence, and Y% a "great deal", with the rest having "not too much" or "no" confidence in....  
-
-This "in contrast" is confusing, since it's not clear where the contrast comes from, and implies the contrast is data driven. Maybe public would trust military the most to develop as well. . I recommend we just combine build and develop questions. Suggested text:
-Broadly, the public's trust in organizations can be divided into five tiers: 
-(1) The U.S. military and university researchers. (~1.55, OR SOME OTHER SUMMARY STAT LIKE PERCENTAGE THAT TRUST FAIR AMOUNT OR GREAT DEAL)
-(2) Tech companies (excluding Facebook), scientific organizations, and the Partnership on AI (~SUMMARY)
-(3) US intelligence organizations, NATO.
-(4) international organizations and the UN (SUMMARY).
-(5) Facebook. 
-
-OR MAYBE HERE WE SHOULD HAVE SOMETHING A BIT MORE CONCISE. Like combine (2) and (3)
-
-FOR LATER TEXT ON THIS PLEASE NOTE for the future we will only ask one version of this question, and that comparing across these question types is not ideal. 
-
-[BZ: I rewrote the bullet point above. I took out the "contrast" bit.]
-[MA: I added "(e.g. OpenAI)" as this seems important to make clear to people what we were asking. When I read the sentence without it, I think of e.g. Amnesty, not OpenAI or PAI]
+BZ: My assessment is this subsection is pretty solid -- 95% there. I added results from another analysis where I took the expected value of the experts' responses so it's comparable to the public's responses. 
 -->
-<ul>
-<li><p>Americans express mixed support for the U.S. investing more in AI military capabilities <em>and</em> of cooperating with China to avoid the dangers of an AI arms race. Providing respondents with information about the risks of a U.S.-China AI arms race decreases support for the U.S. investing more in AI military capabilities. In contrast, providing a pro-nationalist message or a message about AI’s threat to humanity fail to affect Americans’ policy preferences.</p></li>
-<li><p>The median respondent predicts that there is a 54% chance that high-level machine intelligence will be developed by 2028. We define <em>high-level machine intelligence</em> as when machines are able to perform almost all tasks that are economically relevant today better than the median human (today) at each task. See <a href="apptopline.html#forecasthlmi">Appendix B</a> for a detailed definition.</p></li>
-</ul>
-<p><!-- These aren't comparable!!  Remember, totally different questions. Unless I'm missing something, this seems like a pretty huge mis-statement, and makes me concerned that the rest of the report has substantial errors.
-[BZ: I deleted the comparison.]
-[MA: I'd suggest changing to "54% chance by 2028" instead of extrapolating from their responses to what the implied likelihood at 2026 would be. Seems like a more accurate way to represent the results to me.]
-[BZ: Thanks! I changed it to be the ]
- --></p>
-<ul>
-<li><p>Americans express mixed support for developing high-level machine intelligence. Nearly a third of Americans support while 27% oppose the development of the technology.</p></li>
-<li><p>Demographic subgroups that express the greatest support for developing high-level machine intelligence include men, college graduates, those with high income, or those with a tech background.</p></li>
-<li><p>There are more Americans who think that high-level machine intelligence will be harmful than those who believe it will be beneficial to humanity. Twenty-two percent think the technology will be “on balance bad,” and 12% that it would be “extremely bad,” leading to possible human extinction. By contrast, 21% think it will be “on balance good,” and 5% think it will be “extremely good.”</p></li>
-</ul>
-<!--
-AD:Ok, so for future waves I think we should change this. :) 
-The median human today at any particular task probably sucks at the task. Like, I suck at sewing. 
-Instead, we should ask about the humans currently employed to performan that task. eg "as when machines are able to perform almost all tasks that are economically relevant today better than the median human (today) employed to perform that task."
-Problem with this definition is it will change over time, it will get "higher". 
-I doubt these nuances matter. In future waves we should always randomly assign the old definition, to check if it generates similar results. 
-[BZ: I have added this to our document of future to-dos.]
--->
+<p>This question sought to quantify respondents’ <a href="apptopline.html#expectedoutcome">expected outcome of high-level machine intelligence</a>. Respondents were asked to consider the following:</p>
+<blockquote>
+<p>Suppose that high-level machine intelligence could be developed one day. How positive or negative do you expect the overall impact of high-level machine intelligence to be on humanity in the long run?</p>
+</blockquote>
+<p>Americans, on average, expect that high-level machine intelligence will have a harmful impact on balance. Of the 34% who think the technology will have a harmful impact, 12% said it could be extremely bad, leading to possible human extinction. More than a quarter of Americans think that high-level machine intelligence will be good for humanity, with 5% saying it will be extremely good. Since forecasting the impact of such technology on humanity is highly uncertain, 18% of respondents selected “I don’t know.” The correlation between one’s expected outcome and one’s support for developing high-level machine intelligence is 0.69.</p>
+<p>A similar question was asked to AI experts in <span class="citation">Grace et al. (<a href="#ref-grace2018will">2018</a>)</span>; instead of simply selecting one expected outcome, the AI experts were asked to predict the likelihood of each outcome. In contrast to the general public, the expert respondents think that high-level machine intelligence will be more beneficial than harmful.<a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a> Although they assign, on average, a 27% probability of high-level machine intelligence of being extremely good for humanity, they also assign, on average, a 9% probability of the technology being extremely bad, including possibly causing human extinction.</p>
+<div class="figure"><span id="fig:expectedoutcome"></span>
+<img src="ai_public_opinion_us_2018_report-181121-BZ_web_files/figure-html/expectedoutcome-1.png" alt="Expected positive or negative impact of high-level machine intelligence on humanity" width="2100" />
+<p class="caption">
+Figure 28: Expected positive or negative impact of high-level machine intelligence on humanity
+</p>
 </div>
-<div id="reading-notes" class="section level2">
-<h2>1.2 Reading notes</h2>
-<!--
-BZ: Are there other reading notes that we need to include for the readers upfront?
-AD: I don't see this in the pdf. 
-[BZ: I didn't recompile the PDF after adding these.]
--->
-<ul>
-<li><p>In all tables and charts, results are weighted to be representative of the U.S. adult population, unless otherwise specified.</p></li>
-<li><p>Whenever possible, we report the margin of error (MOE) or error bars at the 95% confidence level.</p></li>
-<li><p>For tabulation purposes, percentage points are rounded off to the nearest whole number. As a result, the percentages in a given chart may total slightly higher or lower than 100%.</p></li>
-</ul>
 
-
+<p></p>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-grace2018will">
+<p>Grace, Katja, John Salvatier, Allan Dafoe, Baobao Zhang, and Owain Evans. 2018. “Viewpoint: When Will AI Exceed Human Performance? Evidence from AI Experts.” <em>Journal of Artificial Intelligence Research</em> 62: 729–54. <a href="https://perma.cc/R6BK-JE26" class="uri">https://perma.cc/R6BK-JE26</a>.</p>
+</div>
+<div id="ref-muller2014future">
+<p>Müller, Vincent C, and Nick Bostrom. 2014. “Future Progress in Artificial Intelligence: A Poll Among Experts.” <em>AI Matters</em> 1 (1). ACM: 9–11. <a href="https://perma.cc/ZY22-E5FF" class="uri">https://perma.cc/ZY22-E5FF</a>.</p>
+</div>
+<div id="ref-walsh2018expert">
+<p>Walsh, Toby. 2018. “Expert and Non-Expert Opinion About Technological Unemployment.” <em>International Journal of Automation and Computing</em> 15 (5): 637–42. <a href="https://doi.org/10.1007/s11633-018-1127-x" class="uri">https://doi.org/10.1007/s11633-018-1127-x</a>.</p>
 </div>
 </div>
 <div class="footnotes">
 <hr />
-<ol start="1">
-<li id="fn1"><p>We define AI as computer systems that perform tasks or make decisions that usually require human intelligence.<a href="overview-ai-and-american-public-opinion.html#fnref1">↩</a></p></li>
-<li id="fn2"><p>These results are presented roughly in the order in which questions were presented to respondents.<a href="overview-ai-and-american-public-opinion.html#fnref2">↩</a></p></li>
-<li id="fn3"><p>Giving equal weight to the likelihood and the rated importance of the challenge.<a href="overview-ai-and-american-public-opinion.html#fnref3">↩</a></p></li>
+<ol start="11">
+<li id="fn11"><p>Note that our definition of high-level machine intelligence is equivalent to what many would consider human-level machine intelligence.<a href="high-level-machine-intelligence.html#fnref11">↩</a></p></li>
+<li id="fn12"><p>In <span class="citation">Grace et al. (<a href="#ref-grace2018will">2018</a>)</span>, each respondent provides three data points for their forecast, and these are fitted to the Gamma CDF by least squares to produce the individual cumulative distribution function (CDFs). Each “aggregate forecast” is the mean distribution over all individual CDFs (also called the “mixture” distribution). The confidence interval is generated by bootstrapping (clustering on respondents) and plotting the 95% interval for estimated probabilities at each year. Survey weights are not used in this analysis due to problems incorporating survey weights into the bootstrap.<a href="high-level-machine-intelligence.html#fnref12">↩</a></p></li>
+<li id="fn13"><p>To make the two groups’ results more comparable, we calculated the expected value of the experts’ predicted outcomes so that it is on the same -2 to 2 scale as the public’s responses. To calculate this expected value, we averaged the sums of each expert’s predicted likelihoods multiplied by the corresponding outcomes; we used the same numerical outcome as described in the previous subsection. The expected value of the experts’ predicted outcomes is 0.08, contrasted with the public’s average response of -0.17.<a href="high-level-machine-intelligence.html#fnref13">↩</a></p></li>
 </ol>
 </div>
             </section>
@@ -308,8 +370,8 @@ AD: I don't see this in the pdf.
           </div>
         </div>
       </div>
-
-<a href="general-attitudes-toward-ai.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="trend-across-time-attitudes-toward-workplace-automation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="appmethod.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
